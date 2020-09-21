@@ -1,0 +1,20 @@
+#Extension and FileName
+
+print("Finding the extension of file")
+File = str(input("Put your Name of File : "))
+Extension = File.split('.')
+Extension_filename = Extension[1]
+print(Extension[1])
+if (Extension_filename == 'py'):
+    print("The Extension of the file is Python")
+elif (Extension_filename == 'java'):
+     print("The Extension of the file is Java ")
+elif (Extension_filename == 'doc'):
+     print ("The Extension of the file is Documennt")
+elif (Extension_filename == 'pdf'):
+     print("The Extension of the file is PDF")
+else:
+         print("It is not file . Put Correct filename")
+         
+         
+         Thank you for Project
